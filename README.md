@@ -15,6 +15,7 @@ bash scripts/install_env.sh
 
 # If you plan to access the GUI remotely,
 # then uncomment the host line in src/task_spooler_gui/__main__.py
+# This may have security implications.
 
 # Set up persistent service
 bash scripts/install_service.sh
